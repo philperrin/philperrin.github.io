@@ -50,7 +50,7 @@
             tableData = [];
 
         // Iterate over the JSON object
-        for (var i = 0; i < 50; i++ ) { //use this for full data-> i < feat.length; i++) {
+        for (var i = 0; i < feat.length; i++) {
             tableData.push({
                 "UNIQUEID": feat[i].properties["UNIQUEID"],
 				"ID":feat[i].properties["ID"],
