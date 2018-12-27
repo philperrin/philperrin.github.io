@@ -4,7 +4,18 @@
 		<meta charset="utf-8">
 		<title>Socrata</title>
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+ 
+		<link rel="stylesheet" href="/resources/wdc.css" />
+		<link rel="stylesheet" href="/resources/socrata.css" />
+		<script src="//code.jquery.com/jquery-1.11.1.js">
+		</script>
+
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="//connectors.tableau.com/libs/tableauwdc-2.0.0-beta.js"></script>
+		<script type="text/javascript" src="/resources/tableau-output.js"></script>
+		<script src="wdc.js"></script>
+		<script>
 			$(function() {
 				//event handlers
 				function directionsOnClick()
@@ -111,6 +122,12 @@
 					<span>Socrata</span>
 				</div>
 			</a>
+			<a class="navbar-brand" href="https://www.interworks.com">
+				<img src="https://www.interworks.com/logo/images/logo.png" />
+			</a>
+			<div class="navbar-border">
+				<img src="/resources/WDC_Border.png" />
+			</div>
 		</div>
 		<div class="container">
 			<div class="alert alert-danger warning-msg" id="tableau-warning-msg" style="display:none;">
@@ -170,11 +187,10 @@
 		
 		<footer class="footer">
 			<div class="navbar-border">
-				
+				<img src="/resources/WDC_Border.png" />
 			</div>
 			<div class="container">
 				<p class="text-muted">All data is &copy;<a href="https://www.socrata.com" target="_blank">Socrata</a> or the site specified above. Please refer to the applicable Terms of Service for usage terms.</p>
-				<p class="text-muted">This was a tool developed by Interworks, but I forked it to maintain my own copy. They are pretty cool and you should check out their stuff.</p>
 			</div>
 		</footer>
 	</body>
