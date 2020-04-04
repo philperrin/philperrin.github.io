@@ -45,7 +45,7 @@
     schemaCallback([tableSchema]);
 };
     myConnector.getData = function(table, doneCallback) {
-    $.getJSON("https://cors.io/?https://www-static.bouldercolorado.gov/docs/opendata/Trees_Public.GeoJSON", function(resp) {
+    $.getJSON("https://cors.io/?https://opendata.arcgis.com/datasets/dbbae8bdb0a44d17934243b88e85ef2b_0.geojson", function(resp) {
         var feat = resp.features,
             tableData = [];
 
